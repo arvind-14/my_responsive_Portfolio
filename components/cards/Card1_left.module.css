@@ -1,0 +1,145 @@
+.left {
+    width: 500px;
+    border-radius: 20px;
+    /* background-color: black; */
+}
+
+.image {
+    border-radius: 10px;
+}
+
+.card_outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0px;
+}
+
+.right {
+    width: 500px;
+    height: 180px;
+    background-color: #FF5757;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.right .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70%;
+}
+
+.right h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.right p {
+    color: rgb(239, 239, 239);
+    font-size: 18px;
+}
+
+.right button {
+    margin-right: 15px;
+    background-color: white;
+    font-size: 17px;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    color: rgb(95, 95, 95);
+}
+
+.right button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+@media (max-width:1050px) {
+    .left {
+        width: 400px;
+    }
+
+    .right {
+        width: 400px;
+        height: 200px;
+    }
+
+    .right h2 {
+        font-size: 25px;
+    }
+    .right button{
+        margin-top: auto;
+    }
+}
+
+
+@media (max-width:800px) {
+    .left {
+        width: 350px;
+    }
+
+    .right {
+        width: 300px;
+        height: 170px;
+    }
+
+    .right h2 {
+        font-size: 20px;
+    }
+
+    .right p {
+        font-size: 15px;
+    }
+    .right button{
+        margin-top: auto;
+    }
+
+}
+
+@media (max-width:710px) {
+
+    .left {
+        width: 350px;
+    }
+
+    .right {
+        width: 300px;
+        height: 170px;
+        border-radius: 20px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    
+    .right h2 {
+        font-size: 20px;
+    }
+
+    .right p {
+        font-size: 15px;
+    }
+
+    .card_outer {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:500px) {
+    .left {
+        width: 300px;
+    }
+
+    .right {
+        position: relative;
+        top: -5px;
+    }
+}
