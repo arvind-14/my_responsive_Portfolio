@@ -15,7 +15,7 @@ const Homesection3 = () => {
             <Card2_right cimg={projectimg2} cname="Notes Keeping App" cdescription="A dynamic and user-friendly Keeper App crafted with React and JavaScript. It empowers users to effortlessly create, edit, and delete notes." cvisit="https://notess-keeper-app.vercel.app/" ccode="https://github.com/arvind-14/Keeper_App_reactJS" />
 
             <Card1_left cimg={projectimg3} cname="Portfolio Website" cdescription="Welcome to a visually engaging, responsive and technologically advanced space that reflects the versatility of my skills and the essence of my professional identity."
-                cvisit="/https://www.amazon.in/" ccode="https://www.amazon.in/" />
+                cvisit="https://arvind14-portfolio.vercel.app/" ccode="https://github.com/arvind-14/my_responsive_Portfolio" />
 
             <Link href="/projects"><button className={styles.mybtn}>Show All Projects</button></Link>
         </div>
