@@ -26,7 +26,7 @@ const contact = () => {
                     <p>Contact Me</p>
                     <div className={styles.contact_innermost}>
                         <div className={styles.img}>
-                            <Image src={contactpic} />
+                            <Image src={contactpic} alt='contact'/>
                         </div>
                         <form onSubmit={sendEmail}>
                             <p>Get in touch</p>

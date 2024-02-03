@@ -3,16 +3,9 @@ import Navbar from '../components/Navbar.js'
 import aboutimg from '../media/about_img.png'
 import styles from '../styles/About.module.css'
 import Image from 'next/dist/client/image'
-import Head from 'next/head.js'
 const about = () => {
     return (
         <div className={styles.aboutoutermost}>
-            <Head>
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-                <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css2?family=Splash&display=swap" rel="stylesheet" />
-            </Head>
             <Navbar />
             <div className={styles.section1}>
                 <h1 className={styles.head1}>About Me</h1>
@@ -32,7 +25,7 @@ const about = () => {
                     <b>Eager to collaborate, learn, and embark on transformative tech journeys.</b> Whether unraveling the mysteries of artificial intelligence, securing cyber landscapes, or sculpting the future with innovative solutions, <b>my passion knows no bounds.</b>
                 </p>
                 <div className={styles.imgcont}>
-                    <Image src={aboutimg} layout='responsive' />
+                    <Image src={aboutimg} layout='responsive' alt='arvind' />
                 </div>
             </div>
 

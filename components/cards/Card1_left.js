@@ -6,7 +6,7 @@ const Card1_left = (props) => {
     return (
         <div className={styles.card_outer}>
             <div className={styles.left}>
-                <Image src={props.cimg} layout='responsive' className={styles.image} />
+                <Image src={props.cimg} layout='responsive' alt='project1img' className={styles.image} />
             </div>
             <div className={styles.right}>
                 <div className={styles.text}>
@@ -15,8 +15,8 @@ const Card1_left = (props) => {
                     </p>
                 </div>
                 <div>
-                    <button><a href={props.cvisit} target="_blank">Visit</a></button>
-                    <button><a href={props.ccode} target="_blank">Source Code</a></button>
+                    <button><a href={props.cvisit} target="_blank" rel='noreferrer'>Visit</a></button>
+                    <button><a href={props.ccode} target="_blank" rel='noreferrer'>Source Code</a></button>
                 </div>
             </div>
         </div>

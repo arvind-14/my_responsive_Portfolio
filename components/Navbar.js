@@ -17,7 +17,7 @@ const Navbar = () => {
     return (
         <div className={styles.navouter}>
             <div className={styles.left}>
-                <Image src={signature} className={styles.sign} width={"100px"} height={"50px"} />
+                <Image src={signature} alt='sign'className={styles.sign} width={"100px"} height={"50px"} />
             </div>
             <div className={navactive == true ? `${styles.nav_toggler} ${styles.navactive}` : styles.nav_toggler} onClick={handlenavbarclick}>
                 <span></span>

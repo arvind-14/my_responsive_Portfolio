@@ -1,6 +1,7 @@
 import styles from '../styles/Homesection1.module.css'
 import mainimg from '../media/arv_mainimg.png'
 import Image from 'next/image'
+import React from 'react'
 
 const Homesection1 = () => {
 
@@ -13,11 +14,11 @@ const Homesection1 = () => {
                     From lines of code to the dance of algorithms, I find solace and excitement in the ever-evolving world of tech.
                     <br />
                     <br />
-                    <b>Let's code the future together!</b>
+                    <b>{`Let's`} code the future together!</b>
                 </p>
             </div>
             <div className={styles.right}>
-                <Image src={mainimg}  layout="responsive" />
+                <Image src={mainimg}  layout="responsive" alt='arvind' />
             </div>
 
         </div>

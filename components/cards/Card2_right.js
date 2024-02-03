@@ -11,12 +11,12 @@ const Card2_right = (props) => {
                     </p>
                 </div>
                 <div>
-                    <button><a href={props.cvisit} target="_blank">Visit</a></button>
-                    <button><a href={props.ccode} target="_blank">Source Code</a></button>
+                    <button><a href={props.cvisit} target="_blank" rel='noreferrer'>Visit</a></button>
+                    <button><a href={props.ccode} target="_blank" rel='noreferrer'>Source Code</a></button>
                 </div>
             </div>
             <div className={styles.left}> 
-                <Image src={props.cimg} layout='responsive' className={styles.image} />
+                <Image src={props.cimg} layout='responsive'  alt='project2img' className={styles.image} />
             </div>
         </div>
     )
