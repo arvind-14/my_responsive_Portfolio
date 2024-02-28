@@ -15,10 +15,11 @@ const Homesection1 = () => {
                     <br />
                     <br />
                     <b>{`Let's`} code the future together!</b>
+
                 </p>
             </div>
             <div className={styles.right}>
-                <Image src={mainimg}  layout="responsive" alt='arvind' />
+                <Image src={mainimg} layout="responsive" alt='arvind' />
             </div>
 
         </div>
